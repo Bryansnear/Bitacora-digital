@@ -139,7 +139,7 @@ class BitacoraService {
     await _client.from('instituciones').insert({
       'nombre': nombre,
       'tipo': tipo,
-    });
+    }).select();
   }
 
   Future<void> updateInstitucion(String id, String nombre, String? tipo) async {
@@ -167,11 +167,12 @@ class BitacoraService {
     final data = <String, dynamic>{
       'institucion_id': institucionId,
       'nombre': nombre,
+      'estado': 'activa',
     };
     if (latitud != null) data['latitud'] = latitud;
     if (longitud != null) data['longitud'] = longitud;
     if (radioMetros != null) data['radio_metros'] = radioMetros.toInt();
-    await _client.from('sucursales').insert(data);
+    await _client.from('sucursales').insert(data).select();
   }
 
   Future<void> updateSucursal({
