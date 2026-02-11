@@ -142,7 +142,7 @@ Deberías ver: `users`, `instituciones`, `sucursales`, `bitacoras`, `visitas`, `
 SELECT routine_name 
 FROM information_schema.routines 
 WHERE routine_schema = 'public' 
-AND routine_name LIKE '%admin%' OR routine_name LIKE '%auth%';
+AND (routine_name LIKE '%admin%' OR routine_name LIKE '%auth%');
 ```
 
 Deberías ver: `is_admin`, `is_admin_or_jefe`, `auth_user_instituciones`, `auth_user_role`
