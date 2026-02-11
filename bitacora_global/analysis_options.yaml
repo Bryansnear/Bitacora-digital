@@ -1,0 +1,19 @@
+
+
+
+analyzer:
+  exclude:
+    - lib/auth/firebase_auth/**
+    - lib/backend/**
+    - lib/components/**
+    - lib/consolidadoo/**
+    - lib/cruds/**
+    - lib/custom_code/**
+    - lib/inicio/**
+    - lib/pages/bit_complet/**
+    - lib/pages/bitacoras/**
+    - lib/pages/forgot_paswword/**
+    - lib/pages/profile/**
+    - lib/pages/sucursal/**
+    - lib/sucursales_proveedores/**
+    - lib/flutter_flow/custom_functions.dart

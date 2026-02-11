@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "388403917793",
+    "project_id": "bitacoraglobaldigital",
+    "storage_bucket": "bitacoraglobaldigital.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:388403917793:android:fdc5d2dbaf69ce07e258a0",
+        "android_client_info": {
+          "package_name": "com.mycompany.bitacoradigitalcopriseg"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUooN5f0gMmC7L-unGqwQ4zAa6aYHO8xc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

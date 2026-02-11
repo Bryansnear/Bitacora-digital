@@ -1,0 +1,30 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "bitacora",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "sucursal",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "horaLlegadaVigilante",
+          "order": "DESCENDING"
+        }
+      ]
+    }
+  ],
+  "fieldOverrides": [
+    {
+      "collectionGroup": "bitacora",
+      "fieldPath": "sucursal",
+      "indexes": [
+        {
+          "order": "ASCENDING",
+          "queryScope": "COLLECTION_GROUP"
+        }
+      ]
+    }
+  ]
+}
